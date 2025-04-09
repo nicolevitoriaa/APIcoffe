@@ -1,0 +1,59 @@
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #e8d8c3; /* Cor de fundo marrom claro */
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #4a2c2c; /* Cor do título em marrom */
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+li {
+  background: #4e3b31; /* Cor de fundo marrom escuro */
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+}
+
+li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+img {
+  width: 100%;
+  max-width: 250px; 
+  height: auto; 
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 1.6em;
+  color: #ffffff; /* Cor do texto da receita em branco */
+  margin: 10px 0;
+}
+
+p {
+  color: #ffffff; /* Cor do texto da receita em branco */
+  margin: 5px 0;
+}
+
+strong {
+  color: #c49a6a; /* Cor do preço em marrom claro */
+}
